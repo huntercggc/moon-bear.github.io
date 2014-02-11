@@ -35,6 +35,8 @@ Preferences -> Package Control,執行之後可以看到畫面<u>Package Control 
 
 再打上ctags  按下去就對了,安裝好在重開
 
+再打上cscope  一樣安裝
+
 **step3**
 
 再到終端機打上：  
@@ -48,6 +50,10 @@ sudo apt-get install ctags（安裝ctags）
 到終端機打cscope -b -q -k -R 可建立cscope
 
 到sublime工作列 Find-> CTags -> Rebuild Tags 可建立ctags
+
+在函數上點右鍵 可使用Navigate to Definition （ctag 功能） 以及cscope  功能
+
+而
 
 參考連結：
 
